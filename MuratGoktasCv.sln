@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuratGoktasCv.Dal", "MuratGoktasCv.Dal\MuratGoktasCv.Dal.csproj", "{CE32101F-ECA2-4835-B9E4-8DF37632337C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuratGoktasCV.BusinessLL", "MuratGoktasCV.BusinessLL\MuratGoktasCV.BusinessLL.csproj", "{3094F36D-5AA3-49A2-8FD4-BA17CD8EDC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuratGoktasCv.WcfLibrary", "MuratGoktasCv.WcfLibrary\MuratGoktasCv.WcfLibrary.csproj", "{C7E8A1A1-F24F-4B41-BCE4-861EB3B975C8}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MuratGoktasCv.WcfIISHost", "MuratGoktasCv.WcfIISHost\", "{5F9AF30F-A0D0-44FF-94C0-994700FEE909}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50946"
+		Debug.AspNetCompiler.PhysicalPath = "MuratGoktasCv.WcfIISHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50946\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50946"
+		Release.AspNetCompiler.PhysicalPath = "MuratGoktasCv.WcfIISHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50946\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50946"
+		SlnRelativePath = "MuratGoktasCv.WcfIISHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuratGoktasCv.Entities", "MuratGoktasCv.Entities\MuratGoktasCv.Entities.csproj", "{11CF5951-2666-4A57-9D27-3DBC14F86B99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuratGoktasCv.MvcWebUI", "MuratGoktasCv.MvcWebUI\MuratGoktasCv.MvcWebUI.csproj", "{A622D3C2-44CB-4FD3-8547-1999DDFC411E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuratGoktasCv.MvcWebUI.Tests", "MuratGoktasCv.MvcWebUI.Tests\MuratGoktasCv.MvcWebUI.Tests.csproj", "{0F044B4C-019A-40A2-973B-4E547A945CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuratGoktasCv.Interfaces", "MuratGoktasCv.Interfaces\MuratGoktasCv.Interfaces.csproj", "{B6E0951E-59C3-4358-8CA7-8981DD0C39E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE32101F-ECA2-4835-B9E4-8DF37632337C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE32101F-ECA2-4835-B9E4-8DF37632337C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE32101F-ECA2-4835-B9E4-8DF37632337C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE32101F-ECA2-4835-B9E4-8DF37632337C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3094F36D-5AA3-49A2-8FD4-BA17CD8EDC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3094F36D-5AA3-49A2-8FD4-BA17CD8EDC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3094F36D-5AA3-49A2-8FD4-BA17CD8EDC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3094F36D-5AA3-49A2-8FD4-BA17CD8EDC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E8A1A1-F24F-4B41-BCE4-861EB3B975C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E8A1A1-F24F-4B41-BCE4-861EB3B975C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E8A1A1-F24F-4B41-BCE4-861EB3B975C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E8A1A1-F24F-4B41-BCE4-861EB3B975C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9AF30F-A0D0-44FF-94C0-994700FEE909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9AF30F-A0D0-44FF-94C0-994700FEE909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9AF30F-A0D0-44FF-94C0-994700FEE909}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9AF30F-A0D0-44FF-94C0-994700FEE909}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{11CF5951-2666-4A57-9D27-3DBC14F86B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CF5951-2666-4A57-9D27-3DBC14F86B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CF5951-2666-4A57-9D27-3DBC14F86B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CF5951-2666-4A57-9D27-3DBC14F86B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A622D3C2-44CB-4FD3-8547-1999DDFC411E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A622D3C2-44CB-4FD3-8547-1999DDFC411E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A622D3C2-44CB-4FD3-8547-1999DDFC411E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A622D3C2-44CB-4FD3-8547-1999DDFC411E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F044B4C-019A-40A2-973B-4E547A945CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F044B4C-019A-40A2-973B-4E547A945CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F044B4C-019A-40A2-973B-4E547A945CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F044B4C-019A-40A2-973B-4E547A945CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E0951E-59C3-4358-8CA7-8981DD0C39E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E0951E-59C3-4358-8CA7-8981DD0C39E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E0951E-59C3-4358-8CA7-8981DD0C39E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E0951E-59C3-4358-8CA7-8981DD0C39E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F14ACD0-92E5-44F8-BC94-A97EEA64E63A}
+	EndGlobalSection
+EndGlobal
